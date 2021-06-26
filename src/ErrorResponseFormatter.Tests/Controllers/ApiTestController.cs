@@ -21,7 +21,7 @@ namespace ErrorResponseFormatter.Tests.Controllers
         }
 
         [HttpPost("FluentValidationError")]
-        public ActionResult FluentValidationError(TestModel2 test)
+        public ActionResult FluentValidationError(TestModel3 test)
         {
             return Ok();
         }

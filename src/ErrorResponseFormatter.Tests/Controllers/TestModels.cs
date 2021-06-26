@@ -22,7 +22,7 @@ namespace ErrorResponseFormatter.Tests.Controllers
     {
         public TestModel3Validator()
         {
-            RuleFor(x => x.Name).NotEmpty();
+            RuleFor(x => x.Name).NotEmpty().WithMessage("The Name field is required.");
         }
     }
 }
