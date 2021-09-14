@@ -19,7 +19,7 @@ PROJECT_VERSION=$2
 
 # You should start the scanner prior building your project and running your tests
 dotnet sonarscanner begin \
-    /k:"rafaelpadovezi_bookmark-manager" \
+    /k:"rafaelpadovezi_ErrorResponseFormatter" \
     /o:"rafaelpadovezi" \
     /d:sonar.login="$SONAR_TOKEN" \
     /v:"$PROJECT_VERSION" \
