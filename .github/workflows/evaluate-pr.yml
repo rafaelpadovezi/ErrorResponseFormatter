@@ -1,4 +1,4 @@
-name: Build and publish
+name: Evaluate PR
 
 on:
   pull_request:
