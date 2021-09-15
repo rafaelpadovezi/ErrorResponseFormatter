@@ -16,6 +16,7 @@ namespace ErrorResponseFormatter.Tests.Controllers
     public class TestModel3
     {
         public string Name { get; set; }
+        public int Value { get; set; }
     }
 
     public class TestModel3Validator : AbstractValidator<TestModel3>
